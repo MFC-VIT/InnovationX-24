@@ -5,6 +5,7 @@ import MainWrapper from "./wrappers/MainWrapper";
 import BaseWrapper from "./wrappers/BaseWrapper";
 import NavWrapper from "./wrappers/NavWrapper";
 import Landing from "./screens/Landing";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
@@ -21,7 +22,9 @@ function App() {
         }}
       >
         <BaseWrapper>
-          <NavWrapper>Navbar</NavWrapper>
+          <NavWrapper>
+            <Navbar />
+          </NavWrapper>
           <MainWrapper>
             <Landing />
           </MainWrapper>
