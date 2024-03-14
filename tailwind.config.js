@@ -8,8 +8,9 @@ export default {
         secondary: "#3770ff",
         dark: "#12103e",
         bright: "#ff7a01",
-        light: "#f7cda6",
+        light: "#fac493",
         content: "#07061c",
+        brightpurple: "#d3d3fc",
       },
       fontFamily: {
         grotesk: "grotesk",

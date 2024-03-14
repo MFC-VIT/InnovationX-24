@@ -10,3 +10,10 @@
   font-family: grotesk-blend;
   src: url("/public/Grotesk-blend.ttf");
 }
+.border-style {
+  border: 1px #e0e0e0;
+  border-style: dashed;
+}
+html {
+  cursor: url("/public/images/cursor.svg"), auto;
+}

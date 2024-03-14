@@ -36,7 +36,7 @@ const TimerLabel = () => {
 
   return (
     <div className="w-full py-8">
-      <div className="--container w-[90%] mx-auto flex justify-between">
+      <div className="--container w-[80%] mx-auto flex justify-between">
         <ClipBox>
           <div className="text-3xl font-grotesk  h-full text-white flex flex-col items-center justify-center">
             <p>Join us on 18-19</p>

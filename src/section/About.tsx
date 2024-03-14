@@ -3,7 +3,7 @@ import ContentBox from "../components/ContentBox";
 const About = () => {
   return (
     <div className="w-full py-20">
-      <div className="--container w-[90%] bg-gradient-to-b from-[rgba(255,255,255,1)]  to-[rgba(255,255,255,0.5)] mx-auto flex justify-between items-center  gap-8 py-8 px-20 rounded-[20px]">
+      <div className="--container w-[80%] bg-gradient-to-b from-[rgba(0,0,0,0.2)]  to-[rgba(255,255,255,0.23)] mx-auto flex justify-between items-center  gap-8 py-8 px-20 rounded-[20px] ">
         <div className="w-[40%] flex flex-col gap-4">
           <img
             src="/images/about.jpg"
@@ -11,7 +11,7 @@ const About = () => {
             className="w-full rounded-[50px]"
           />
           <div className="--pop-up flex flex-col gap-2">
-            <div className="info px-2 w-[70%] py-2 bg-white rounded-lg rounded-br-none text-[0.5rem] self-end">
+            <div className="info px-2 w-[70%] py-2 bg-white rounded-lg rounded-br-none text-[0.5rem] self-end ">
               Brace yourselves for an unforgettable experience featuring an
               impressive lineup of enthusiastic speakers who will ignite your
               curiosity and leave you inspired.

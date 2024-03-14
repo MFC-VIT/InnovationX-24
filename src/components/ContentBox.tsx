@@ -4,7 +4,7 @@ interface Props {
 }
 const ContentBox = ({ heading, description }: Props) => {
   return (
-    <div className="w-full p-8 text-content  font-grotesk bg-primary relative rounded-xl overflow-hidden">
+    <div className="w-full p-8  font-grotesk bg-primary relative rounded-xl overflow-hidden text-white">
       <div className="--heading text-5xl mb-8 font-bold relative z-[10]">
         {heading}
       </div>
