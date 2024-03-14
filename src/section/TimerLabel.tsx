@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ClipBox from "../components/ClipBox";
-
+import { motion } from "framer-motion";
 const TimerLabel = () => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -45,27 +45,47 @@ const TimerLabel = () => {
         </ClipBox>
         <div className="flex gap-12 text-[#e0e0e080] mr-12">
           <span className="flex flex-col items-center gap-4">
-            <h1 className="text-bright text-8xl font-medium font-groteskb">
+            <motion.div
+              className="text-bright text-8xl font-medium font-groteskb"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
               {timeLeft.days}
-            </h1>
+            </motion.div>
             <p>Days</p>
           </span>
           <span className="flex flex-col items-center gap-4">
-            <h1 className="text-bright text-8xl font-medium font-groteskb">
+            <motion.div
+              className="text-bright text-8xl font-medium font-groteskb"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.25 }}
+            >
               {timeLeft.hours}
-            </h1>
+            </motion.div>
             <p>Hours</p>
           </span>
           <span className="flex flex-col items-center gap-4">
-            <h1 className="text-bright text-8xl font-medium font-groteskb">
+            <motion.div
+              className="text-bright text-8xl font-medium font-groteskb"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+            >
               {timeLeft.minutes}
-            </h1>
+            </motion.div>
             <p>Minutes</p>
           </span>
           <span className="flex flex-col items-center gap-4">
-            <h1 className="text-bright text-8xl font-medium font-groteskb w-32 text-center">
+            <motion.div
+              className="text-bright text-8xl font-medium font-groteskb w-32 text-center"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.75 }}
+            >
               {timeLeft.seconds}
-            </h1>
+            </motion.div>
             <p>Seconds</p>
           </span>
         </div>

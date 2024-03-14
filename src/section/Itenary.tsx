@@ -5,7 +5,7 @@ const Itenary = () => {
     <div className="w-full py-20">
       <div className="--container w-[80%] mx-auto flex flex-col text-white gap-8">
         <ClipBox>
-          <div className="text-8xl font-grotesk font-medium">ITINERARY</div>
+          <h1 className="text-8xl font-grotesk font-medium">ITINERARY</h1>
         </ClipBox>
         <div className="font-grotesk text-sm flex justify-between">
           <span>

@@ -1,10 +1,18 @@
+import { motion } from "framer-motion";
 interface Props {
   img: string;
   title: string;
+  index: number;
 }
-const TrackCard = ({ img, title }: Props) => {
+const TrackCard = ({ img, title, index }: Props) => {
   return (
-    <div className="border-style w-[30%] aspect-square p-4 border-dashed flex flex-col gap-4 text-white  mb-8 relative group hover:border-light transition-all duration-200 ease-linear  hover:scale-[98%]">
+    <motion.div
+      className="border-style w-[30%] aspect-square p-4 border-dashed flex flex-col gap-4 text-white  mb-8 relative group hover:border-light transition-all duration-200 ease-linear  hover:scale-[98%]"
+      initial={{ opacity: 0, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.25, delay: index * 0.25 }}
+      viewport={{ once: true }}
+    >
       <span className="w-8 h-8 flex justify-center items-center font-grotesk  text-2xl absolute -top-4 -left-4 group-hover:scale-150 transition-all duration-200 ease-linear group-hover:text-bright">
         +
       </span>
@@ -23,7 +31,7 @@ const TrackCard = ({ img, title }: Props) => {
       <div className="title font-grotesk text-2xl font-bold text-center">
         {title}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

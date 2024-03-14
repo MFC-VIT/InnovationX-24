@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const sampleData = [
   "Registration Opens: February 1, 2024",
   "Registration Closes: February 28, 2024",
@@ -20,17 +21,35 @@ const Timeline = () => {
           <>
             <div className="flex w-full text-sm">
               {index % 2 === 1 && (
-                <div className="bg-brightpurple h-12 w-fit px-6 pr-12 py-2 flex items-center rounded-lg rounded-r-none -translate-x-[50%] mx-auto">
+                <motion.div
+                  className="bg-brightpurple h-12 w-fit px-6 pr-12 py-2 flex items-center rounded-lg rounded-r-none -translate-x-[50%] mx-auto"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  viewport={{ once: true }}
+                >
                   {data}
-                </div>
+                </motion.div>
               )}
-              <div className="w-12 h-12 rounded-lg bg-bright absolute left-1/2 -translate-x-1/2 z-[50] flex justify-center items-center ">
+              <motion.div
+                className="w-12 h-12 rounded-lg  bg-bright absolute left-1/2 -translate-x-1/2 z-[50] flex justify-center items-center "
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+              >
                 {index + 1}
-              </div>
+              </motion.div>
               {index % 2 === 0 && (
-                <div className="bg-light h-12 w-fit px-6 pl-12 py-2 flex items-center rounded-lg rounded-l-none translate-x-[50%] mx-auto">
+                <motion.div
+                  className="bg-light  h-12 w-fit px-6 pl-12 py-2 flex items-center rounded-lg rounded-l-none translate-x-[50%] mx-auto"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  viewport={{ once: true }}
+                >
                   {data}
-                </div>
+                </motion.div>
               )}
             </div>
           </>
