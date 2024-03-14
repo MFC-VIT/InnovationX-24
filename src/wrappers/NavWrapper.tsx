@@ -3,7 +3,7 @@ interface Props {
   children: ReactNode;
 }
 const NavWrapper = ({ children }: Props) => {
-  return <div className="w-full h-[8%]">{children}</div>;
+  return <div className="w-full h-[12%] bg-white">{children}</div>;
 };
 
 export default NavWrapper;

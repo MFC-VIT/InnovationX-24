@@ -1,7 +1,14 @@
-import React from "react";
-
+import Hero from "../section/Hero";
+import TimerLabel from "../section/TimerLabel";
+import About from "../section/About";
 const Landing = () => {
-  return <div>Landing</div>;
+  return (
+    <>
+      <Hero />
+      <TimerLabel />
+      <About />
+    </>
+  );
 };
 
 export default Landing;

@@ -3,7 +3,7 @@ interface Props {
   children: ReactNode;
 }
 const BaseWrapper = ({ children }: Props) => {
-  return <div className="w-full min-h-fit h-screen">{children}</div>;
+  return <div className="w-full bg-back flex flex-col">{children}</div>;
 };
 
 export default BaseWrapper;

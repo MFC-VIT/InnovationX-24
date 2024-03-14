@@ -6,7 +6,9 @@ export default {
       colors: {
         back: "#04001e",
         secondary: "#3770ff",
+        dark: "#12103e",
         bright: "#ff7a01",
+        light: "#f7cda6",
         content: "#07061c",
       },
       fontFamily: {
