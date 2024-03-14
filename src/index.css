@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: grotesk;
+  src: url("/public/Grotesk-regular.ttf");
+}
+@font-face {
+  font-family: grotesk-blend;
+  src: url("/public/Grotesk-blend.ttf");
+}
