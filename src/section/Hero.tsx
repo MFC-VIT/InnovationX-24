@@ -14,7 +14,7 @@ const Hero = () => {
         >
           JOIN US
         </motion.h1>
-        <div className="w-full absolute top-[30%] md:top-[35%] left-[60%] md:left-[75%]">
+        <div className="w-full absolute top-[28%] md:top-[40%] left-[60%] md:left-[75%]">
           <Pipeline label="" small={true} color={"#ff7a01"}>
             <p className="text-xs text-[#e0e0e0]">-BUILD-THE-FUTURE-</p>
           </Pipeline>
@@ -37,7 +37,7 @@ const Hero = () => {
         >
           InnovationX
         </motion.h1>
-        <div className="w-full absolute bottom-[28%] md:bottom-[25%] right-[5%] md:right-[10%]">
+        <div className="w-full absolute bottom-[25%] md:bottom-[28%] right-[5%] md:right-[10%]">
           <Pipeline label="" small={true}>
             <p className="text-xs text-[#e0e0e0]">-DESIGNERS-DEVELOPERS</p>
           </Pipeline>
