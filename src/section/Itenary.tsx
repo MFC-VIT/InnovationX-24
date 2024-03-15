@@ -24,7 +24,17 @@ const March19 = [
 ];
 const Itenary = () => {
   return (
-    <div className="w-full py-12 md:py-20">
+    <div className="w-full py-12 md:py-20 relative">
+      <img
+        src="/images/floater3.webp"
+        alt=""
+        className="w-28 md:w-72 absolute top-4 md:top-[20%] right-2 md:left-4 floater"
+      />
+      <img
+        src="/images/floater1.webp"
+        alt=""
+        className="w-28 md:w-72 absolute -bottom-12 md:bottom-12 right-4 floater2"
+      />
       <div className="--container w-[90%] md:w-[80%] mx-auto flex flex-col text-white gap-4 md:gap-8">
         <ClipBox>
           <h1 className="text-4xl md:text-8xl font-grotesk font-medium">

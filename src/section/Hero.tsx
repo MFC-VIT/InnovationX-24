@@ -1,9 +1,20 @@
 import PrimaryButton from "../components/PrimaryButton";
 import Pipeline from "../components/Pipeline";
 import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen relative">
+      <motion.img
+        src="/images/floater1.webp"
+        alt=""
+        className="w-40 md:w-80 absolute bottom-12 right-4 floater delay-300"
+      />
+      <img
+        src="/images/floater2.webp"
+        alt=""
+        className="w-32 md:w-80 absolute top-24 md:top-12 left-0 md:left-4 floater"
+      />
       <div className="--content text-white w-fit mx-auto h-full flex flex-col justify-center items-center gap-4 -mt-32 md:-mt-12 relative">
         <motion.h1
           className="text-5xl md:text-8xl font-grotesk font-medium"
