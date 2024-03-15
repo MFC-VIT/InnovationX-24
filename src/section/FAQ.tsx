@@ -39,9 +39,9 @@ const faqData = [
 const FAQ = () => {
   return (
     <div className="w-full py-20">
-      <div className="container w-[80%] mx-auto flex justify-between">
-        <div className="w-[50%] text-white font-grotesk flex flex-col gap-4">
-          <h1 className="text-4xl">
+      <div className="container w-[90%] md:w-[80%] mx-auto flex flex-col md:flex-row md:justify-between gap-8 md:gap-0">
+        <div className="w-full md:w-[50%] text-white font-grotesk flex flex-col gap-4">
+          <h1 className="text-xl md:text-4xl">
             These are some questions that are often asked.
           </h1>
           <span className="text-sm">
@@ -50,7 +50,7 @@ const FAQ = () => {
           </span>
           <PrimaryButton label="CONTACT US" link="/" />
         </div>
-        <div className="w-[50%]">
+        <div className="w-full md:w-[50%]">
           {faqData.map((faq, i) => (
             <FAQItem
               question={faq.question}

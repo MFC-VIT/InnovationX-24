@@ -7,8 +7,10 @@ const PrimaryButton = ({ label, link, small }: Props) => {
   return (
     <a href={link} className={`flex ${small ? "h-8" : "h-10"} `}>
       <div
-        className={`min-w-fit rounded-lg bg-bright font-grotesk  font-medium ${
-          small ? "text-xs flex items-center px-3" : "text-lg px-4 py-2"
+        className={`min-w-fit rounded-lg flex items-center bg-bright font-grotesk  font-medium ${
+          small
+            ? "text-xs flex items-center px-3"
+            : "text-sm   md:text-lg px-4 py-2"
         }`}
       >
         {label}
@@ -17,7 +19,7 @@ const PrimaryButton = ({ label, link, small }: Props) => {
         <img
           src="/images/arrow.png"
           alt="arrow"
-          className={`${small ? "w-3" : "w-4"} h-auto -rotate-45`}
+          className={`${small ? "w-3" : "w-3 md:w-4"} h-auto -rotate-45`}
         />
       </div>
     </a>
