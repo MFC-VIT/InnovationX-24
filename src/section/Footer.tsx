@@ -12,7 +12,11 @@ const Footer = () => {
               Do you have another question that is not listed here? Or do you
               want to ask us about anything?
             </span>
-            <PrimaryButton label="VISIT OUR INSTAGRAM" link="/" small={true} />
+            <PrimaryButton
+              label="VISIT OUR INSTAGRAM"
+              link="https://www.instagram.com/mfc_vit/"
+              small={true}
+            />
           </section>
         </div>
         <div className="w-full md:w-[50%]">
@@ -21,28 +25,34 @@ const Footer = () => {
           </h1>
           <section className="flex gap-2 mt-2 md:mt-4">
             <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
-              <img
-                src="/images/facebook.png"
-                alt="facebook"
-                className="invert"
-              />
+              <a href="https://www.facebook.com/mfcvit/">
+                <img
+                  src="/images/facebook.png"
+                  alt="facebook"
+                  className="invert"
+                />
+              </a>
             </span>
             <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
               <img src="/images/twitter.png" alt="twitter" className="invert" />
             </span>
             <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
-              <img
-                src="/images/linkedin.png"
-                alt="linkedin"
-                className="invert"
-              />
+              <a href="https://in.linkedin.com/company/mfcvit">
+                <img
+                  src="/images/linkedin.png"
+                  alt="linkedin"
+                  className="invert"
+                />
+              </a>
             </span>
             <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
-              <img
-                src="/images/instagram.png"
-                alt="instagram"
-                className="invert"
-              />
+              <a href="https://www.instagram.com/mfc_vit/">
+                <img
+                  src="/images/instagram.png"
+                  alt="instagram"
+                  className="invert"
+                />
+              </a>
             </span>
           </section>
         </div>
