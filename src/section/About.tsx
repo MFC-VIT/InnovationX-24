@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="w-full py-20">
       <div className="--container w-[90%] md:w-[80%] bg-gradient-to-b from-[rgba(0,0,0,0.2)]  to-[rgba(255,255,255,0.23)] mx-auto flex flex-col md:flex-row md:justify-between md:items-center  gap-8 py-4 md:py-8 px-2 md:px-20 rounded-[20px] ">
-        <div className="hidden md:flex w-[40%]  flex-col gap-4">
+        {/* <div className="hidden md:flex w-[40%]  flex-col gap-4">
           <img
             src="/images/about.jpg"
             alt=""
@@ -20,7 +20,7 @@ const About = () => {
               InnovationX
             </div>
           </div>
-        </div>
+        </div> */}
         <ContentBox
           heading="About InnovationX"
           description={
