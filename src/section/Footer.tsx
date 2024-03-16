@@ -33,9 +33,9 @@ const Footer = () => {
                 />
               </a>
             </span>
-            <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+            {/* <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
               <img src="/images/twitter.png" alt="twitter" className="invert" />
-            </span>
+            </span> */}
             <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
               <a href="https://in.linkedin.com/company/mfcvit">
                 <img
