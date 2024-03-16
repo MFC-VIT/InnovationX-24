@@ -48,7 +48,10 @@ const FAQ = () => {
             Do you have another question that is not listed here? Or do you want
             to ask us about anything?
           </span>
-          <PrimaryButton label="CONTACT US" link="/" />
+          <PrimaryButton
+            label="OUR WEBSITE"
+            link="https://www.mozillavit.in/"
+          />
         </div>
         <div className="w-full md:w-[50%]">
           {faqData.map((faq, i) => (
