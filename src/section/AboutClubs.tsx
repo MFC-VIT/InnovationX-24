@@ -9,11 +9,11 @@ const AboutClubs = () => {
       </div>
       <div className="w-[100%] md:translate-x-[15%] my-12 mb-32">
         <div className="translate-x-[20%] md:translate-x-0">
-          {/* <img
+          <img
             src="/images/mfc-logo.png"
             alt="Mozilla Firefox Club"
-            className="w-24 absolute -left-32 top-16"
-          /> */}
+            className="md:w-24 absolute md:-left-28 w-16 -left-16 top-2"
+          />
           <Pipeline label={"Mozilla Firefox Club"}>
             <div className="text-lg md:text-6xl font-groteskb font-medium w-[50%] text-nowrap text-brightpurple">
               ---MOZILLA FIREFOX CLUB VIT---MOZILLA FIREFOX CLUB VIT---MOZILLA
