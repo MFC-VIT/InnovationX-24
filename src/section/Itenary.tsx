@@ -9,11 +9,11 @@ const March18 = [
   "Review 1 by Admark: March 18, 15:15 - 17:30",
   "Phase 3: March 18, 17:30 - 20:00",
   "Dinner: March 18, 20:00 - 21:00",
-  "Phase 4: March 18, 21:00 - 00:00",
+  "Phase 4: March 18, 21:00 - 01:00",
 ];
 const March19 = [
-  "Fillers: March 19, 00:00 - 01:00",
-  "Phase 5: March 19, 01:00 - 04:00",
+  "Fillers: March 19, 01:00 - 02:00",
+  "Phase 5: March 19, 02:00 - 04:00",
   "Review 2: March 19, 04:00 - 07:00",
   "Breakfast: March 19, 07:00 - 09:00",
   "Phase 6: March 19, 09:00 - 13:00",
