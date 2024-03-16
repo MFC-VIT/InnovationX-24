@@ -17,15 +17,18 @@ const AboutClubs = () => {
           </Pipeline>
         </div>
         <div className="description w-[90%] md:w-[75%] mx-auto md:m-0 font-grotesk mt-6 md:mt-6  text-justify text-[#e0e0e0] text-sm md:text-base">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt,
-          repudiandae. Qui, quis unde. Asperiores architecto ullam obcaecati ea
-          eligendi nesciunt natus facilis amet deleniti provident culpa,
-          voluptate, dolores aliquid voluptatem exercitationem suscipit, hic in
-          doloremque reiciendis. Ratione doloribus voluptate minus sunt quos quo
-          perferendis placeat at nam doloremque, inventore suscipit aliquam enim
-          consectetur iste tempore unde sapiente et. Laboriosam qui deserunt
-          odit dolorum molestias dicta aspernatur, provident accusantium dolorem
-          ducimus.
+          The Mozilla Firefox Club VIT, Vellore, is a vibrant student developers
+          community at VIT, with a rich six-year history and a team of 1000+
+          core members. We foster a familial atmosphere, dedicated to
+          translating ideas into reality and enhancing technical skills across
+          various Engineering & Technology fields. Our global reach includes a
+          diverse audience from over 15 countries. With a dedicated executive
+          board of 16 and four mentors, we acknowledge the invaluable
+          contributions of our faculty coordinator, executive board, mentor
+          team, and industry leaders. Special recognition is extended to active
+          club members positively impacting college development. MFC-VIT' s
+          mission is to uplift, inspire, and educate members, empowering them to
+          achieve success in their ambitions and dreams.
         </div>
       </div>
       <div className="w-[100%] md:-translate-x-[15%] my-12 mb-32">
@@ -37,15 +40,14 @@ const AboutClubs = () => {
           </Pipeline>
         </div>
         <div className="description w-[90%] md:w-[75%] mx-auto md:m-0 md:mt-6 font-grotesk mt-6 text-[#e0e0e0] md:translate-x-[33%] text-justify text-sm md:text-base">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt,
-          repudiandae. Qui, quis unde. Asperiores architecto ullam obcaecati ea
-          eligendi nesciunt natus facilis amet deleniti provident culpa,
-          voluptate, dolores aliquid voluptatem exercitationem suscipit, hic in
-          doloremque reiciendis. Ratione doloribus voluptate minus sunt quos quo
-          perferendis placeat at nam doloremque, inventore suscipit aliquam enim
-          consectetur iste tempore unde sapiente et. Laboriosam qui deserunt
-          odit dolorum molestias dicta aspernatur, provident accusantium dolorem
-          ducimus.
+          AdMark, VIT Vellore's Marketing & Advertising Club, is your one-stop
+          shop to ignite your marketing passion. Collaborate with a diverse
+          group of students who share your love for creativity, strategy, and
+          innovation. Develop your skills through workshops led by industry
+          professionals and faculty, covering everything from social media
+          marketing to consumer behavior. Showcase your talents and network with
+          peers at our marketing-themed competitions and events. AdMark - where
+          marketing minds meet and the future of the industry is ignited.
         </div>
       </div>
     </div>
