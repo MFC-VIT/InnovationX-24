@@ -10,7 +10,7 @@ const TimerLabel = () => {
   });
 
   useEffect(() => {
-    const countDownDate = new Date("March 18, 2024 22:00:00").getTime();
+    const countDownDate = new Date("March 18, 2024 8:00:00").getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
