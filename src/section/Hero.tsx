@@ -55,7 +55,7 @@ const Hero = () => {
         </div>
         <div className="mt-6">
           <PrimaryButton
-            label="REGISTER FOR THE EVENT"
+            label="REGISTER NOW"
             link="https://forms.gle/poLo9t1j9KYwVPLh7"
           />
         </div>
