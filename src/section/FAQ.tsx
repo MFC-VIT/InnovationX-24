@@ -42,8 +42,8 @@ const FAQ = () => {
             to ask us about anything?
           </span>
           <PrimaryButton
-            label="CONTACT US"
-            link="https://www.instagram.com/mfc_vit/"
+            label="OUR WEBSITE"
+            link="https://www.mozillavit.in/"
           />
         </div>
         <div className="w-full md:w-[50%]">
