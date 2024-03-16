@@ -8,7 +8,7 @@ const AboutClubs = () => {
         About Us
       </div>
       <div className="w-[100%] md:translate-x-[15%] my-12 mb-32">
-        <div className="translate-x-[20%] md:translate-x-0">
+        <div className="translate-x-[25%] md:translate-x-0">
           <img
             src="/images/mfc-logo.png"
             alt="Mozilla Firefox Club"
@@ -40,9 +40,9 @@ const AboutClubs = () => {
         <img
           src="/images/Admark.png"
           alt=""
-          className=" md:w-36 w-28 absolute z-[100] md:-right-44  right-6 top-2"
+          className=" md:w-36 w-28 absolute z-[100] md:-right-44  right-0 top-2"
         />
-        <div className="-translate-x-[25%] md:translate-x-0">
+        <div className="-translate-x-[37%] md:translate-x-0">
           <Pipeline shift={true} label={"Admark Club"}>
             <div className="text-lg md:text-6xl font-groteskb font-medium w-[50%] text-nowrap text-brightpurple">
               ---ADMARK VIT---ADMARK VIT---ADMARK VIT---ADMARK VIT---
