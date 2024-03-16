@@ -23,9 +23,9 @@ const Hero = () => {
           transition={{ duration: 0.25, delay: 0.25 }}
           viewport={{ once: true }}
         >
-          JOIN US
+          JOIN OUR
         </motion.h1>
-        <div className="w-full absolute top-[28%] md:top-[40%] left-[60%] md:left-[75%]">
+        <div className="w-full absolute top-[25%] md:top-[40%] left-[60%] md:left-[80%]">
           <Pipeline label="" small={true} color={"#ff7a01"}>
             <p className="text-xs text-[#e0e0e0]">-BUILD-THE-FUTURE-</p>
           </Pipeline>
@@ -37,7 +37,7 @@ const Hero = () => {
           transition={{ duration: 0.25, delay: 0.25 }}
           viewport={{ once: true }}
         >
-          FOR
+          TRIBE
         </motion.h1>
         <motion.h1
           className="text-5xl md:text-8xl font-grotesk font-bold"
