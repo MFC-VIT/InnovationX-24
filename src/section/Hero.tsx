@@ -54,7 +54,10 @@ const Hero = () => {
           </Pipeline>
         </div>
         <div className="mt-6">
-          <PrimaryButton label="REGISTER FOR THE EVENT" link="" />
+          <PrimaryButton
+            label="REGISTER FOR THE EVENT"
+            link="https://forms.gle/poLo9t1j9KYwVPLh7"
+          />
         </div>
       </div>
     </div>

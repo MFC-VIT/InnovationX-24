@@ -24,36 +24,36 @@ const Footer = () => {
             Follow Us On Social Media
           </h1>
           <section className="flex gap-2 mt-2 md:mt-4">
-            <a href="https://www.facebook.com/mfcvit/">
-              <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+            <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+              <a href="https://www.facebook.com/mfcvit/">
                 <img
                   src="/images/facebook.png"
                   alt="facebook"
                   className="invert"
                 />
-              </span>
-            </a>
+              </a>
+            </span>
             <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
               <img src="/images/twitter.png" alt="twitter" className="invert" />
             </span>
-            <a href="https://in.linkedin.com/company/mfcvit">
-              <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+            <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+              <a href="https://in.linkedin.com/company/mfcvit">
                 <img
                   src="/images/linkedin.png"
                   alt="linkedin"
                   className="invert"
                 />
-              </span>
-            </a>
-            <a href="https://www.instagram.com/mfc_vit/">
-              <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+              </a>
+            </span>
+            <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+              <a href="https://www.instagram.com/mfc_vit/">
                 <img
                   src="/images/instagram.png"
                   alt="instagram"
                   className="invert"
                 />
-              </span>
-            </a>
+              </a>
+            </span>
           </section>
         </div>
       </div>

@@ -2,12 +2,13 @@ import PrimaryButton from "../components/PrimaryButton";
 import FAQItem from "../components/FAQItem";
 const faqData = [
   {
-    question: "Can I work on my existing projects during a hackathon?",
-    answer: "No, we will accept only fresh projects.",
+    question: "How many participants per team?",
+    answer: "No. of team members can vary from 2 to 4.",
   },
   {
-    question: "What should I bring to a hackathon?",
-    answer: "No, we will accept only fresh projects.",
+    question: "How many reviews?",
+    answer:
+      "Three Reviews: One Business, Second Technical and Third is amalgamation of both.",
   },
   {
     question:
@@ -15,25 +16,17 @@ const faqData = [
     answer: "No, we will accept only fresh projects.",
   },
   {
-    question: "Can anyone participate in a hackathon?",
-    answer: "No, we will accept only fresh projects.",
+    question: "What aspects will be looked for in Review 1?",
+    answer: "Idea implementation and design.",
   },
   {
-    question: "Is there a parking facility available for participants?",
-    answer: "No, we will accept only fresh projects.",
+    question: "What aspects will be looked for in Review 2?",
+    answer:
+      "Techinal Implementation, Team management and functioning of website.",
   },
   {
-    question: "Can I use open-source libraries or frameworks in my project?",
-    answer: "No, we will accept only fresh projects.",
-  },
-  {
-    question:
-      "Are there any restrictions on the programming languages or technologies I can use?",
-    answer: "No, we will accept only fresh projects.",
-  },
-  {
-    question: "Can I use hardware or external devices in my project?",
-    answer: "No, we will accept only fresh projects.",
+    question: "Will participants be allowed to leave the venue during night?",
+    answer: "Participants have to stay in the event hall during the night.",
   },
 ];
 const FAQ = () => {
