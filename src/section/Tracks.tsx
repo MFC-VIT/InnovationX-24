@@ -11,7 +11,7 @@ const trackData = [
   },
   {
     img: "c.webp",
-    title: "Finance & Fintech",
+    title: "Fintech",
   },
   {
     img: "d.webp",

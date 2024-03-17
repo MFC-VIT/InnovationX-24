@@ -6,12 +6,12 @@ const About = () => {
       <div className="--container w-[90%] md:w-[80%] bg-gradient-to-b from-[rgba(0,0,0,0.2)]  to-[rgba(255,255,255,0.23)] mx-auto flex flex-col md:flex-row md:justify-between md:items-center  gap-8 py-4 md:py-8 px-2 md:px-20 rounded-[20px] ">
         {/* <div className="hidden md:flex w-[40%]  flex-col gap-4">
           <img
-            src="/images/about.jpg"
+            src="/images/about.png"
             alt=""
             className="w-full rounded-[50px]"
           />
           <div className="--pop-up flex flex-col gap-2">
-            <div className="info px-2 w-[70%] py-2 bg-white rounded-lg rounded-br-none text-[0.75rem] self-end">
+            <div className="info px-2 w-[70%] py-2 bg-white rounded-lg rounded-br-none text-[0.5rem] self-end">
               Brace yourself for an unforgettable 36-hour hackathon experience.
               No boundaries, just innovation. Join now and ignite your
               creativity!
