@@ -11,11 +11,6 @@ const faqData = [
       "Three Reviews: One Business, Second Technical and Third is amalgamation of both.",
   },
   {
-    question:
-      "Do I need to have a team to participate, or can I join as an individual?",
-    answer: "No, we will accept only fresh projects.",
-  },
-  {
     question: "What aspects will be looked for in Review 1?",
     answer: "Idea implementation and design.",
   },
