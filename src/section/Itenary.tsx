@@ -1,7 +1,7 @@
 import ClipBox from "../components/ClipBox";
 import Timeline from "../components/Timeline";
 const March18 = [
-  "Reporting & Registration: March 18, 9:00 - 9:30",
+  "Reporting & Registration: March 18, 8:00 - 9:30",
   "Opening Ceremony: March 18, 9:30 - 11:00",
   "Tracks & Ideation: March 18, 11:00 - 13:00",
   "Lunch: March 18, 13:00 - 14:00",
