@@ -21,7 +21,7 @@ Mozilla Firefox Club VIT, presents a dynamic 36-hour hackathon: InnovationX, emp
 
 1.  Clone the Repository:
 
-    `git clone `
+    `git clone https://github.com/MFC-VIT/InnovationX-24.git `
 
 2.  Install all the dependencies:
 
@@ -72,7 +72,7 @@ width="32" height="32" alt="LinkedIn" />
 
 # License
 
-Copyright © 2024, [MozillaFirefox-VIT](https://github.com/MFC-VIT) and all other contributors.
+Copyright © 2024, [MozillaFirefox-VIT](https://github.com/MFC-VIT) and all other contributors. Released under the [MIT License](LICENSE).
 
 <p align="center">
 Made with ❤️ by <a href="https://mozillavit.in/" target="_blank">MFC-VIT</a>
